@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "https://lead-management-backend-pxr6.onrender.com/api/$1"
+            "destination": "https://beneficial-inspiration-production.up.railway.app/api/$1"
         },
         {
             "source": "/(.*)",
