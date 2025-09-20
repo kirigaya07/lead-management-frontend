@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://lead-management-backend-pxr6.onrender.com",
         changeOrigin: true,
         secure: false,
       },
